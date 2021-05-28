@@ -224,7 +224,7 @@
 .bd-content > table > tfoot > tr > td {
   padding: 0.75rem;
   vertical-align: top;
-  border: 1px solid #dee2e6;
+  border: 1px solid #FFF;
 }
 
 .bd-content > table > thead > tr > th > p:last-child,
@@ -1189,6 +1189,26 @@
   background-color: #343a40;
 }
 
+.swatch-q-orange {
+  color: #fff;
+  background-color: #f76b20;
+}
+
+.swatch-point2 {
+  color: #fff;
+  background-color: #2680eb;
+}
+
+.swatch-semi-dark {
+  color: #fff;
+  background-color: #686868;
+}
+
+.swatch-background-2 {
+  color: #212529;
+  background-color: #f6f6f6;
+}
+
 .swatch-primary {
   color: #fff;
   background-color: #223e58;
@@ -1227,6 +1247,26 @@
 .swatch-dark {
   color: #fff;
   background-color: #212121;
+}
+
+.swatch-q-orange {
+  color: #fff;
+  background-color: #f76b20;
+}
+
+.swatch-point2 {
+  color: #fff;
+  background-color: #2680eb;
+}
+
+.swatch-semi-dark {
+  color: #fff;
+  background-color: #686868;
+}
+
+.swatch-background-2 {
+  color: #212529;
+  background-color: #f6f6f6;
 }
 
 .swatch-100 {

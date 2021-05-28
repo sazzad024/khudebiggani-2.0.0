@@ -50,6 +50,10 @@ $basic-color1 : #36b24a; //success
 $basic-color2 :#6379b0; //info
 $basic-color3 : #e7aa3f; //warning
 $basic-color4 : #e47a62; //danger
+$q-orange: #f76b20;
+$point2: #2680eb;
+$semi-dark: #686868;
+$bg-2: #f6f6f6;
 
 $my-primary : #223e58;
 $my-secondary : #418ce7;
@@ -74,7 +78,11 @@ $colors: map-merge((
   "cyan":       $cyan,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "q-orange": $q-orange,
+  "point2": $point2,
+  "semi-dark": $semi-dark,
+  "background-2": $bg-2
 ), $colors);
 
 $primary:       $my-primary;
@@ -95,7 +103,11 @@ $theme-colors: map-merge((
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "q-orange":   $q-orange,
+  "point2":     $point2,
+  "semi-dark":  $semi-dark,
+  "background-2": $bg-2
 ), $theme-colors);
 // stylelint-enable
 
@@ -324,9 +336,10 @@ $table-accent-bg:             rgba($black, .05) !default;
 $table-hover-bg:              rgba($black, .075) !default;
 $table-active-bg:             $table-hover-bg !default;
 
-$table-border-width:          $border-width !default;
-$table-border-color:          $gray-300 !default;
-
+//$table-border-width:          $border-width !default;
+$table-border-width: .5rem;
+$table-border-color:          #FFF !default;
+//$table-border-color: rgba(255, 255, 255, 0);
 $table-head-bg:               $gray-200 !default;
 $table-head-color:            $gray-700 !default;
 
